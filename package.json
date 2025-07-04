@@ -1,0 +1,12 @@
+{
+  "name": "decibells",
+  "version": "1.0.0",
+  "description": "Distributed verification network",
+  "author": "Gaba Dev",
+  "license": "CC0-1.0",
+  "scripts": {
+    "node": "node src/validator.js",
+    "web": "node src/web-interface.js",
+    "test": "npm run test:unit && npm run test:integration"
+  }
+}
